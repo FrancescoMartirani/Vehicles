@@ -13,7 +13,7 @@ namespace FactoryMethodVehicle
             2 => cilindrata > 125 ? new Motorbike(cilindrata, peso) : new Scooter(cilindrata, peso),
             3 => new SideCar(cilindrata, peso),
             4 => new Car(cilindrata, peso),   
-            6 => peso > 60000 ? new Tir(cilindrata, peso) : new Truck(cilindrata, peso),
+            6 => peso > 6000 ? new Tir(cilindrata, peso) : new Truck(cilindrata, peso),
             _ => throw new NumberOfWheelsNotSupported()
         };
     }

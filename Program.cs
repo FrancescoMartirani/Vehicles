@@ -14,13 +14,13 @@
             var vehicleWith2wheels2 = VehicleFactory.Build(2, 150, 200);
             Console.WriteLine($"I'm a ... {vehicleWith2wheels2.GetType()}");
 
-            var vehicleWith6wheels = VehicleFactory.Build(6, 6000, 50000);
+            var vehicleWith6wheels = VehicleFactory.Build(6, 6000, 5000);
             Console.WriteLine($"I'm a ... {vehicleWith6wheels.GetType()}");
 
             var vehicleWith3wheels = VehicleFactory.Build(3, 397, 330);
             Console.WriteLine($"I'm a ... {vehicleWith3wheels.GetType()}");
 
-            var vehicletir = VehicleFactory.Build(6, 6000, 100000);
+            var vehicletir = VehicleFactory.Build(6, 6000, 9000);
             Console.WriteLine($"I'm a ... {vehicletir.GetType()}");
 
             Console.ReadLine();
