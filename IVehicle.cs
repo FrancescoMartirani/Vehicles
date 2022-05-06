@@ -9,5 +9,7 @@ namespace FactoryMethodVehicle
     public interface IVehicle
     {
         int GetPower();
+        int GetPeso();
+
     }
 }

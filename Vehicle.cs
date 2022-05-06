@@ -8,8 +8,8 @@ namespace FactoryMethodVehicle
 {
     public abstract class Vehicle : IVehicle
     {
-        public int Cilindrata;
-        public int Peso;
+        private int Cilindrata;
+        private int Peso;
 
         public Vehicle(int cilindrata, int peso)
         {
@@ -19,6 +19,7 @@ namespace FactoryMethodVehicle
         }
 
         public int GetPower() => Cilindrata;
+        public int GetPeso() => Peso;
 
     }
 }
